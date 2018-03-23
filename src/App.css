@@ -1,0 +1,55 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	min-height: 100vh;
+}
+
+#flex-container {
+	display: flex;
+	flex: 1;
+}
+
+#flex-container > article {
+	flex: 1 1 auto;
+	order: 1;
+	background-color: #EDE5CE;
+  padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#flex-container > article > h1 {
+	text-align: center;
+}
+
+#flex-container > nav {
+	flex: 0 0 15%;
+	order: 0;
+	background-color: #CEEDD6;
+	padding: 10px;
+}
+
+#flex-container > aside {
+	flex: 0 0 15%;
+	order: 2;
+	background-color: #EDCEE6;
+	padding: 10px;
+}
+
+header {
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #CED6ED;
+}
+
+footer {
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #DBCEED;
+}
