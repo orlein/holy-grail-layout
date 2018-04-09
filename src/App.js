@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-
+import { NestedList } from "./components/NestedList";
 class App extends Component {
   render() {
     return (
@@ -31,7 +31,7 @@ class App extends Component {
               cursus elit vel sollicitudin tempus.
             </p>
           </article>
-          <nav>Navigation</nav>
+          <nav><NestedList /></nav>
           <aside>Aside</aside>
         </div>
         <footer>This is the Footer</footer>
